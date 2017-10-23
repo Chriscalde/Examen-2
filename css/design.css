@@ -1,0 +1,340 @@
+
+.background {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/gordon-williams-257623.jpg);
+    background-size: cover;
+    height: 950px;
+    width: 100%;
+    margin-left:260px;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+.side{
+    margin-top: 0px;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #373e46;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.side a{
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #feb51b;
+    display: block;
+    transition: 0.3s;
+}
+.side a:hover, .offcanvas a:focus{
+    color: white;
+}
+.title {
+    padding-top: 20px;
+    margin-top: 0px;
+    padding-left: 150px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
+.pa1 {
+    margin-left: 260px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #4d5f6b;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 500px;
+    width: 100%;
+}
+.pa1 a,p{
+    padding-left: 20px;
+}
+.pa1 a{
+    margin-top: 25px;
+    display: block;
+    margin: auto;
+    font-size: 65px;
+}
+
+
+.pa2 {
+    margin-left: 260px;
+    color: black;
+    background-color: #5e7a86;
+    width: 100%;
+}
+
+.pa3 {
+    margin-left: 260px;
+    color: black;
+    background-color: #4d5f6b;
+    font-family: 'Roboto Condensed',sans-serif;
+    width: 100%;
+}
+
+.pa4 {
+    margin-left: 260px;
+    color: black;
+    background-color: #5e7a86;
+    width: 100%;
+}
+.pa1 a{
+    padding-top: 10px;
+    
+}
+
+body {
+    margin-top: 0px;
+}
+
+
+
+.imb {
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    float: left;
+    background-image: url(../img/loneye.jpg);
+    background-size: cover;
+}
+
+
+
+
+.image {
+    margin: 50px;
+}
+
+.images img{
+    margin-left: 100px;
+    padding: 25px;
+    align-content:space-around;
+}
+.images:hover .middle{
+    opacity: 1;
+}
+.images:hover .middle2{
+    opacity: 1;
+}
+.images:hover .middle3{
+    opacity: 1;
+}
+.images:hover .img1{
+    opacity: 0.3;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 1225px;
+  left: 600px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+.text {
+    background-color: #4d5f6b;
+    color: #feb51b;
+    font-size: 25px;
+    padding: 15px 45px;
+}
+
+.images {
+    
+}
+
+.img1 {
+    opacity: 1;
+    border-radius: 50px;
+    transition: .5 ease;
+    backface-visibility: hidden;
+}
+
+
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 1225px;
+  left: 1215px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)  
+}
+
+.text2 {
+    background-color: #4d5f6b;
+    color: #feb51b;
+    font-size: 25px;
+    padding: 15px 45px;
+}
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 1225px;
+  left: 1830px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)  
+}
+.text3{
+   background-color: #4d5f6b;
+    color: #feb51b;
+    font-size: 25px;
+    padding: 15px 35px; 
+}
+
+.pa2 a{
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    font-size: 65px;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.button {
+    background-color: #5e7a86;
+    border: 3px solid #feb51b;
+    color: #feb51b;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 75px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.button:hover{
+    color: black;
+    background-color: #feb51b
+}
+
+.pa3 a {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    font-size: 65px;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.pa4 a {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    font-size: 65px;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.pa3 .polaroid {
+    display: block;
+    margin: auto;
+    width: 800px;
+  background-color: #5e7a86;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-bottom: 25px;
+  margin-bottom: 0px;
+}
+
+.pa3 .container {
+text-align: left;
+  padding: 20px 30px;
+    margin-bottom: 25px;
+}
+.pa3 h1{
+    font-size: 45px;
+    background-color: #373e46;
+    color: #feb51b;
+    padding: 10px 25px;
+}
+.pa3 p{
+    font-size: 25px;
+}
+.pa3 h2{
+    padding: 10px 25px;
+}
+
+.next {
+    display: block;
+    margin: 10px 10px 10px 1100px;
+    background-color: #4d5f6b;
+    border: 2px solid #feb51b;
+    font-size: 35px;    
+    border-radius: 25px;
+    padding: 10px 25px;
+    
+}
+
+.next span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.next span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.next:hover span {
+  padding-right: 25px;
+}
+
+.next:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pa4 .contact {
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    font-size: 45px;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #feb51b;
+}
+
+.pa4 .inf {
+  margin-top: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #4d5f6b;  
+    text-decoration: none;
+}
+
+.lc {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    background-image: url(../img/new%20london.png);
+    background-size: cover;
+    display: block;
+    
+}
